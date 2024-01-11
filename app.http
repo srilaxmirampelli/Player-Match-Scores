@@ -1,0 +1,42 @@
+
+// Get All Players API 1
+
+
+GET http://localhost:3000/players/
+
+// Get a specific player API 2
+
+
+GET http://localhost:3000/players/8/
+
+// update a specific player API 3
+
+
+PUT http://localhost:3000/players/1/
+Content-Type: application/json
+
+{
+  "playerName": "shiva"
+}
+
+// Get a match details of a specific match API 4
+
+
+GET http://localhost:3000/matches/10/
+
+// Get the list of all matches of a player API 5
+
+
+GET http://localhost:3000/players/2/matches/
+
+// Get the list of all players of a specific match API 6
+
+
+
+GET http://localhost:3000/matches/1/players/
+
+// Get the player Scores of a particular player API 7
+
+
+
+GET http://localhost:3000/players/1/playerScores/
